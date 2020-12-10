@@ -1,0 +1,65 @@
+.heading {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1%;
+}
+
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+    justify-items: center;
+    padding: 0 1.5%;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+}
+
+.welcomeBold{
+    font-weight: bold;
+}
+
+.selection{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 3%;
+    padding: 5% 9%;
+}
+
+.selectHeading{
+    margin: 0;
+    text-align: center;
+}
+
+.innerbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.rectangle {
+    height: 300px;
+    width: 170px;
+    background-color: #A0A0A0;
+  }
+
+  .rectangle-text{
+    display: flex;
+    text-align: center;
+    margin: 65% 0;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  .a{
+    text-decoration: none;
+    color: #888888;
+  }
+
+  .area{
+      text-align: center;
+      font-size: 16px;
+  }
